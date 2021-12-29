@@ -2,8 +2,6 @@ import streamlit as st
 from streamlit import config
 import yfinance as yf
 import pandas as pd
-import os
-import base64
 
 st.title("Basic Stock Price App")
 st.write("##### Welcome! Please select a company you want to view the stock prices of. All the data is up-to-date.")
